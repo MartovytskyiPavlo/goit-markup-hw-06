@@ -54,67 +54,6 @@
             </div>
         </header>
 
-        <div class="backdrop is-hidden" data-modal>
-            <div class="modal">
-                <button class="modal-close-button" data-modal-close>
-                    <svg class="icon-close">
-                        <use href="./images/sprite.svg#close"></use>
-                    </svg>
-                </button>
-                <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
-                <form class="contact-form">
-                    <label class="contact-form-label"
-                        >Имя
-                        <span class="input-wrapper">
-                            <input type="text" name="user-name" class="contact-form-text" />
-                            <svg class="icons-modal">
-                                <use href="./images/icons.svg#icon-user"></use></svg></span
-                    ></label>
-                    <label class="contact-form-label"
-                        >Телефон
-                        <span class="input-wrapper">
-                            <input type="tel" name="user-phone" class="contact-form-text" /><svg
-                                class="icons-modal"
-                            >
-                                <use href="./images/icons.svg#icon-phone"></use></svg></span
-                    ></label>
-                    <label class="contact-form-label"
-                        >Почта
-                        <span class="input-wrapper">
-                            <input type="email" name="user-email" class="contact-form-text" /><svg
-                                class="icons-modal"
-                            >
-                                <use href="./images/icons.svg#icon-mail"></use></svg></span
-                    ></label>
-                    <label class="contact-form-label"
-                        >Комментарий<span class="input-wrapper">
-                            <textarea
-                                name="comment"
-                                cols="30"
-                                rows="10"
-                                placeholder="Введите текст"
-                                class="contact-form-textarea"
-                            ></textarea>
-                        </span>
-                    </label>
-                    <div class="modal-wrapper">
-                        <input
-                            type="checkbox"
-                            name="accept-policy"
-                            id="policy-checkbox"
-                            class="contact-form-checkbox visually-hidden"
-                            required
-                        />
-                        <label for="policy-checkbox" class="contact-form-checkbox-label"
-                            >Соглашаюсь с рассылкой и принимаю&nbsp;
-                            <a href="#">Условия договора</a></label
-                        >
-                        <button type="submit" class="contact-form-btn">Отправить</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-
         <main>
             <section class="hero-section">
                 <div class="container">
@@ -442,6 +381,67 @@
                 </div>
             </section>
         </main>
+
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <button class="modal-close-button" data-modal-close>
+                    <svg class="icon-close">
+                        <use href="./images/sprite.svg#close"></use>
+                    </svg>
+                </button>
+                <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+                <form class="contact-form">
+                    <label class="contact-form-label"
+                        >Имя
+                        <span class="input-wrapper">
+                            <input type="text" name="user-name" class="contact-form-text" />
+                            <svg class="icons-modal">
+                                <use href="./images/icons.svg#icon-user"></use></svg></span
+                    ></label>
+                    <label class="contact-form-label"
+                        >Телефон
+                        <span class="input-wrapper">
+                            <input type="tel" name="user-phone" class="contact-form-text" /><svg
+                                class="icons-modal"
+                            >
+                                <use href="./images/icons.svg#icon-phone"></use></svg></span
+                    ></label>
+                    <label class="contact-form-label"
+                        >Почта
+                        <span class="input-wrapper">
+                            <input type="email" name="user-email" class="contact-form-text" /><svg
+                                class="icons-modal"
+                            >
+                                <use href="./images/icons.svg#icon-mail"></use></svg></span
+                    ></label>
+                    <label class="contact-form-label"
+                        >Комментарий<span class="input-wrapper">
+                            <textarea
+                                name="comment"
+                                cols="30"
+                                rows="10"
+                                placeholder="Введите текст"
+                                class="contact-form-textarea"
+                            ></textarea>
+                        </span>
+                    </label>
+                    <div class="modal-wrapper">
+                        <input
+                            type="checkbox"
+                            name="accept-policy"
+                            id="policy-checkbox"
+                            class="contact-form-checkbox visually-hidden"
+                            required
+                        />
+                        <label for="policy-checkbox" class="contact-form-checkbox-label"
+                            >Соглашаюсь с рассылкой и принимаю&nbsp;
+                            <a href="#">Условия договора</a></label
+                        >
+                        <button type="submit" class="contact-form-btn">Отправить</button>
+                    </div>
+                </form>
+            </div>
+        </div>
 
         <footer class="footer">
             <div class="container">
